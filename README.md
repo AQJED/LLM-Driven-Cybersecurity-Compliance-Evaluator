@@ -1,4 +1,4 @@
-# LLM-Driven-Cybersecurity-Compliance-Evaluator
+# LLM-Driven Cybersecurity Compliance Evaluator
 
 ![UI Screenshot](UI.png)
 
