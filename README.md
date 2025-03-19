@@ -16,14 +16,14 @@ LLM-Driven Cybersecurity Compliance Evaluator is a Python-based tool that levera
   Provides an interactive UI to load input files, trigger evaluations, and view/export results without writing code.
   
 - **AI Integration:**  
-  Utilizes the Ollama API (or similar LLM integration) for real-time analysis and decision-making.
+  Utilizes the Ollama API for real-time analysis and decision-making.
 
 ## Tech Stack
 
 - **Programming Language:** Python
 - **Data Handling:** Pandas
-- **User Interface:** (e.g., Streamlit, Tkinter, or your chosen UI framework)
-- **AI Integration:** Ollama API (or an equivalent LLM API)
+- **User Interface:** (HTML)
+- **AI Integration:** Ollama API
 - **Output Format:** Excel (using Pandas' `to_excel` functionality)
 
 ## Installation
