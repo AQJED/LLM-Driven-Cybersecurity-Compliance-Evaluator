@@ -2,11 +2,9 @@
 
 ![UI Screenshot](UI.png)
 
-
-
 ## Overview
 
-LLM-Driven Cybersecurity Compliance Evaluator is a Python-based tool that leverages a large language model (LLM) to assess a company's cybersecurity controls against predefined compliance requirements. The evaluator reads control data from CSV files, uses an AI model to determine if each control is "Met", "Partially Met", or "Not Met", and exports the results to an Excel file. An intuitive user interface has also been added to streamline the evaluation process for cybersecurity analysts and compliance teams.
+LLM-Driven Cybersecurity Compliance Evaluator is a Python-based tool that utilizes artificial intelligence (AI) to assess a company's cybersecurity controls against National Cybersecurity Authority (NCA) compliance requirements. The evaluator processes control data from CSV files, applies AI-driven analysis to determine whether each control is 'Met,' 'Partially Met,' or 'Not Met,' and exports the results to an Excel file. Additionally, an intuitive user interface has been integrated to streamline the evaluation process for cybersecurity analysts and compliance teams.
 
 ## Features
 
