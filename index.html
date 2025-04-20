@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM‑Driven Cybersecurity Compliance Evaluator</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p1TfIh6V+7Wn/dF1WqKz7AGGgKf6EM3mYb+2L1G9OOV3mWc8H5KQFvcN4l+6LJ1qv1pU5jv7uPNq9vT+XQvSBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Base styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html { height: 100%; font-family: 'Poppins', sans-serif; color: #e0e0e0; background-color: #0f0f0f; line-height: 1.6; }
+
+    /* Fullscreen Header */
+    header { position: relative; width: 100%; height: 100vh; background: url('background.jpg') no-repeat center center/cover; display: flex; align-items: center; justify-content: center; }
+    header::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15,15,15,0.6); }
+    .header-content { position: relative; z-index: 1; padding: 2rem; width: 80%; max-width: 1000px; text-align: center; }
+    .header-content h1 { font-size: 3rem; font-weight: 600; color: #ffffff; }
+    .header-content p { font-size: 1.25rem; color: #cccccc; margin-top: 0.5rem; }
+
+    /* Main content container */
+    main { padding: 4rem 2rem; max-width: 1000px; margin: 0 auto; }
+    h2 { font-size: 2rem; margin-bottom: 1rem; font-weight: 600; color: #f0f0f0; }
+    p { margin-bottom: 1rem; font-size: 1rem; color: #d0d0d0; }
+    ul { margin-bottom: 1.5rem; padding-left: 1.25rem; }
+    ul li { margin-bottom: 0.5rem; }
+
+    /* Tables */
+    table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
+    th, td { padding: 0.75rem 1rem; border: 1px solid #2c2c2c; }
+    th { background-color: #1a1a1a; color: #ffffff; text-align: left; }
+    td { background-color: #141414; color: #cccccc; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header-content h1 { font-size: 2.5rem; }
+      .header-content { width: 90%; padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="header-content">
+      <h1>LLM‑Driven Cybersecurity Compliance Evaluator</h1>
+      <p>Python‑Based Tool for Automated NCA Compliance Assessment</p>
+      <p>Assess your organization’s cybersecurity controls against National Cybersecurity Authority requirements using a conversational AI backend.</p>
+      <p>Results are processed from CSV input and exported to Excel for easy reporting.</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>This tool uses an LLM to compare company cybersecurity controls against NCA compliance requirements and returns standardized assessment results.</p>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Automated compliance assessment via AI interaction</li>
+        <li>Reads requirements &amp; controls from CSV files</li>
+        <li>Exports assessment results to Excel</li>
+        <li>Interactive UI for file loading &amp; report generation</li>
+        <li>Real‑time analysis using the Ollama API</li>
+      </ul>
+    </section>
+
+    <section id="tech-stack">
+      <h2>Tech Stack</h2>
+      <table>
+        <thead>
+          <tr><th>Component</th><th>Tool / Library</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Language</td><td>Python</td><td>Core application logic</td></tr>
+          <tr><td>Data Handling</td><td>Pandas</td><td>CSV &amp; Excel I/O</td></tr>
+          <tr><td>AI Integration</td><td>Ollama API</td><td>LLM‑based compliance analysis</td></tr>
+          <tr><td>UI</td><td>HTML / JavaScript</td><td>Interactive front‑end</td></tr>
+          <tr><td>Reporting</td><td>Pandas to_excel</td><td>Generate Excel reports</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="how-to-run">
+      <h2>How to Run</h2>
+      <ul>
+        <li>Install Python dependencies: <code>pip install pandas ollama</code></li>
+        <li>Launch the UI and load your control &amp; requirement CSV files</li>
+        <li>Click ‘Evaluate’ to trigger AI assessment</li>
+        <li>Download the Excel report</li>
+      </ul>
+    </section>
+
+    <section id="author">
+      <h2>Author</h2>
+      <p>Adeeb Alqahtani</p>
+      <p>
+        <a href="https://theadeeb.com">theadeeb.com</a> |
+        <a href="https://www.linkedin.com/in/adalqahtani">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>
