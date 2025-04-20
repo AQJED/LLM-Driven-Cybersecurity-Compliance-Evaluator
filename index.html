@@ -8,7 +8,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p1TfIh6V+7Wn/dF1WqKz7AGGgKf6EM3mYb+2L1G9OOV3mWc8H5KQFvcN4l+6LJ1qv1pU5jv7uPNq9vT+XQvSBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-p1TfIh6V+7Wn/dF1WqKz7AGGgKf6EM3mYb+2L1G9OOV3mWc8H5KQFvcN4l+6LJ1qv1pU5jv7uPNq9vT+XQvSBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <style>
     /* Base styles */
@@ -28,6 +30,15 @@
     p { margin-bottom: 1rem; font-size: 1rem; color: #d0d0d0; }
     ul { margin-bottom: 1.5rem; padding-left: 1.25rem; }
     ul li { margin-bottom: 0.5rem; }
+
+    /* Overview image */
+    .overview-image {
+      width: 100%;
+      height: auto;
+      margin: 1.5rem 0;
+      border: 1px solid #2c2c2c;
+      border-radius: 4px;
+    }
 
     /* Tables */
     table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
@@ -59,6 +70,8 @@
     <section id="overview">
       <h2>Overview</h2>
       <p>This tool uses an LLM to compare company cybersecurity controls against NCA compliance requirements and returns standardized assessment results.</p>
+      <!-- Inserted UI image -->
+      <img src="UI.png" alt="Application User Interface" class="overview-image">
     </section>
 
     <section id="features">
